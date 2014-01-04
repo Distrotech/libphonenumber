@@ -330,9 +330,9 @@ if (${USE_ICU_REGEXP} STREQUAL "ON")
   endif ()
 endif ()
 
-if (NOT WIN32)
-  add_definitions ("-Wall -Werror")
-endif ()
+#if (NOT WIN32)
+#  add_definitions ("-Wall -Werror")
+#endif ()
 
 include_directories ("src")
 
